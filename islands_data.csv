@@ -1,0 +1,66 @@
+island,name,age,occupation,income,sex,education,2yr drug use,control / shroom,before-drug score,after-drug score,day 1 score,day 2 score,day 7 score
+ironbard,Adam Stein,24,Cleaner,"$3,496",male,High School,No,control,38,42.6,46.2,43.6,37.6
+ironbard,Amy Kimura,21,Garbage Collector,"$3,404",female,High School,No,control,65.5,61.8,61.7,54.7,63.3
+ironbard,Tineka Thorn,27,Glazier,"$3,936",female,University,No,control,90,83.4,80.1,89.3,87.3
+ironbard,Daiki Wilson,23,Perfumer,"$3,843",male,High School,No,control,62.5,67,62.9,62.8,61.5
+ironbard,Gunnar Eklund,28,Pig Farmer,"$4,145",male,High School,No,control,66.2,60.9,57.3,62.8,52.3
+ironbard,Ryoko Ando,27,Barista,"$4,011",female,High School,No,control,61.7,59.4,57.2,58.7,60.5
+ironbard,Tove Regan,22,Oat Farmer,"$2,244",male,High School,No,control,62.4,75.9,66.3,69.6,65.5
+ironbard,Rosalind Lund,20,Jeweller,"$2,423",female,High School,No,control,42.8,37.5,36.7,41.1,42.3
+ironbard,Rin Kimura,31,Plasterer,"$2,521",female,High School,No,control,38.1,40.8,47.4,50.7,45.4
+ironbard,Sophie Blomgren,21,Gardener,"$2,471",female,High School,No,control,42.9,46.4,47.6,51.1,47.4
+,,,,,,,,,,,,,
+ironbard,Cariel Solberg,29,Sawyer,"$4,282",female,High School,No,shroom,67.1,71.9,64.6,61.6,68.6
+ironbard,Karina Jensen,26,Constable,"$3,265",female,High School,No,shroom,43,51.6,38.6,39.9,44.7
+ironbard,Sanji Ando,26,Chef,"$3,279",male,High School,No,shroom,55,46.5,Withdrew,Withdrew,
+ironbard,Gerald Reinhardt,28,Carpenter,"$2,739",male,High School,No,shroom,42.3,42.7,45.6,43.2,41.2
+ironbard,Kerstin Solberg,27,Poultry Farmer,"$2,725",female,High School,No,shroom,88.2,86.4,Withdrew,Withdrew,
+ironbard,Kordula Brandt,27,Nanny,"$4,209",female,High School,No,shroom,42.7,46.7,53.2,46.2,40
+ironbard,Yuval Ahmad,24,Hairdresser,"$4,713",male,High School,No,shroom,83.9,84.3,75.3,86.9,102
+ironbard,Zachary Kimura,25,fisherman,"$5,057",male,High School,No,shroom,61.5,59.8,51,56.9,50
+ironbard,Michelle Wilson,28,butcher,"$3,215",female,High School,No,shroom,78.3,60.4,68.8,77.1,70.2
+ironbard,Nils Carlsen,29,Plumber,"$7,324",male,University,No,shroom,72.8,66.4,65.6,64.3,59.2
+,,,,,,,,,,,,,
+providence,Gerik Blomgren,95,Retired,$500,Male,University Graduate,None,control,69.5,54.5,61.5,67.3,69.5
+providence,Raum Blomgren,57,Barista,"$9,189",Male,High School Grad,None,control,74.2,71.1,78.9,81,74.3
+providence,Jack Brown,75,Retired,$504,Male,University Graduate,None,control,46.5,53,56.7,62.8,50.8
+providence,Tania Cousin,41,Wheat Farmer,"$4,859",Female,High School Graduate,None,control,68.7,71.3,73.5,65.2,62
+providence,Lars Eklund,56,Constable,"$7,157",Male,High School Graduate,None,control,66,59.3,67,62.5,64
+providence,Raum Eklund,54,Elementary School Principal,"$10,300",Male,College Graduate,None,control,78.4,75.5,74.1,77.3,67.9
+providence,Tomas Eklund,30,Wheat Farmer,"$7,336",Male,High School Graduate,None,control,59.2,57.8,47.8,47.2,51.4
+providence,Ryosuke Iwasaki,26,Carpenter,"$5,306",Male,High School Graduate,None,control,67.9,65.5,64.3,69.4,60.4
+providence,Melissa Jackson,39,Technician,"$7,089",Female,College Graduate,None,control,66,50.2,59.6,59.6,58.2
+providence,Shannon Kimura,27,Tour Guide,"$4,883",Female,High School Graduate,None,control,43.6,39.7,46.8,46.8,44.2
+,,,,,,,,,,,,,
+providence,Rumi Kobayashi,24,Constable,"$3,119",Female,High School Graduate,None,shroom,57,57,49.7,49.9,42.6
+providence,Mirai Tiwari,20,Wheat Farmer,"$2,053",Female,High School Graduate,None,shroom,63.9,58.8,64.3,61.1,67
+providence,Alain Masson,49,Cotton Farmer,"$4,891",Male,College Graduate,None,shroom,64.5,59.8,58.8,56.9,63.4
+providence,Jarrod McCarthy,49,Detective,"$11,126",Male,College Graduate,None,shroom,53.3,41.8,50.4,42,45.9
+providence,Karim Pasquier,39,Wine Maker,"$7,095",Male,College Graduate,None,shroom,81.8,89.7,83,85.1,82.6
+providence,Kristjana Sorenson,90,Retired,$297,Female,College Graduate,None,shroom,82.4,96,85.3,77.9,84.7
+providence,Olson Sorenson,82,Retired,$233,Male,College Graduate,None,shroom,64.5,61.7,66.9,61,57.7
+providence,Tobias Thorn,30,Kitchen Hand,"$2,452",Male,High School Graduate,None,shroom,50.9,51.5,49.4,Withdrew,Withdrew
+providence,Finlay Watanabe,55,Poultry Farmer,"$7,700",Male,College Graduate,None,shroom,74.1,90,79.7,88.3,88.7
+providence,Vivienne Robertson,8,Student,$0,Female,Elementary School Student,None,shroom,120,126,114,114,126
+,,,,,,,,,,,,,
+bonne sante,rosalind erickson,20,chef,1012,f,hs,none,control,46.3,47.1,withdrew,withdrew,withdrew
+bonne sante,ladii maharaj,43,sheep farmer,5638,f,uni,none,control,64.8,62.3,64.5,65.6,67.5
+bonne sante,hallmar olsen,56,technician,4167,m,uni,none,control,78.1,81.3,72.9,73.4,71.1
+bonne sante,jack price,25,dairy farmer,3851,m,hs,none,control,79.6,83.9,89.9,102,89.8
+bonne sante,rosalie sato,28,none,669,f,hs,none,control,74.3,66.2,74.4,74.2,76.7
+bonne sante,emma solberg,77,none,194,f,uni,none,control,58.8,62.6,51,62.1,68.8
+bonne sante,kelda solberg,84,none,2479,f,hs,none,control,74.8,79.3,68.6,77.1,69.4
+bonne sante,inge sorensen,35,librarian,1808,f,uni,none,control,74.7,76.5,72,73.8,81.3
+bonne sante,julia sorensen,27,courtesan,7640,f,hs,none,control,63.1,66.2,63.6,64.3,74.3
+bonne sante,tahlia swift,55,historian,7058,f,hs,none,control,46.8,40.8,40.2,50.1,45.8
+,,,,,,,,,,,,,
+bonne sante,raum bager,121,book club,480,m,uni,none,shroom,75.5,65.6,59.2,71.3,70.9
+bonne sante,jenya bahdur,20,wine maker,2189,f,hs,none,shroom,49.3,57.1,44.9,49.7,56.2
+bonne sante,kamala bahadur,72,none,763,f,none,none,shroom,41.9,41,47.3,46.9,41.5
+bonne sante,blaise basu,20,brewer,830,m,hs,none,shroom,51.6,53.7,56.1,60.4,46
+bonne sante,erling blomgren,95,none,528,m,hs,none,shroom,58.1,58,54.3,68.9,60.8
+bonne sante,nils blomgren,55,glazier,7091,m,uni,none,shroom,71.7,70.8,68.2,67,76
+bonne sante,hannah brown,78,none,338,f,uni,none,shroom,59.9,58.5,57.6,61.8,60.4
+bonne sante,nico carlsen,86,none,352,m,hs,none,shroom,44.7,46,49.1,46.3,47.9
+bonne sante,amy connolly,58,arborist,5109,f,uni,none,shroom,74.5,71.2,79.7,75.5,77.2
+bonne sante,dheer dhar,25,bricklayer,3202,m,hs,none,shroom,90,85.7,90,87.1,81.7

@@ -1,0 +1,15 @@
+```{r}
+# imports
+library(readr)
+library(ggplot2)
+library(dplyr)
+library(tidymodels)
+```
+
+```{r}
+# setup data
+data = read.csv("islands_data.csv")
+data = 
+print(data)
+```
+
