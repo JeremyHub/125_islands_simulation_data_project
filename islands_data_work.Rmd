@@ -9,7 +9,30 @@ library(tidymodels)
 ```{r}
 # setup data
 data = read.csv("islands_data.csv")
-data = 
+
+data = data[complete.cases(data),]
+data = data[!is.na(as.numeric(data$day.7.score)), ]
+data = select(data, -X2yr.drug.use)
+
+data$income = gsub("\\$", "", data$income)
+
+data$education = gsub("\\University Graduate", "uni", data$education)
+data$education = gsub("\\High School Graduate", "hs", data$education)
+data$education = gsub("\\High School Grad", "hs", data$education)
+data$education = gsub("\\High School", "hs", data$education)
+data$education = gsub("\\University", "uni", data$education)
+data$education = gsub("\\College Graduate", "uni", data$education)
+data$education = gsub("\\Elementary School Student", "elm", data$education)
+
+data$sex = gsub("\\Male", "m", data$sex)
+data$sex = gsub("\\male", "m", data$sex)
+data$sex = gsub("\\Female", "f", data$sex)
+data$sex = gsub("\\female", "f", data$sex)
+data$sex = gsub("fem", "f", data$sex)
+data$sex = gsub("Fem", "f", data$sex)
+
+data$control...shroom = gsub("control", 0, data$control...shroom)
+data$control...shroom = gsub("shroom", 1, data$control...shroom)
+
 print(data)
 ```
-
