@@ -83,10 +83,39 @@ lm_spec <-
     set_mode('regression')
 
 mod <- fit(lm_spec,
-            score ~ . -name -occupation -island,
+            score ~ . -name -occupation -island -before.drug.score -education -income -age -sex,
             data = total)
 
 mod %>%
   tidy()
+
+
+total %>%
+  #select(-occupation -island -before.drug.score -education -income -age -sex) %>%
+  filter(control...shroom == 0) %>%
+  ggplot(aes(x=days.after, y=score)) +
+  geom_point() +
+  labs(x = "Days after exposure", y="Score Delta From First Try", title="Score Difference in Control Population") +
+  geom_smooth(method="lm", level=0.90, formula = y ~ x)
+
+total %>%
+  #select(-occupation -island -before.drug.score -education -income -age -sex) %>%
+  filter(control...shroom == 1) %>%
+  ggplot(aes(x=days.after, y=score)) +
+  geom_point() +
+  labs(x = "Days after exposure", y="Score Delta From First Try", title="Score Difference in Effected Population") +
+  geom_smooth(method="lm", level=0.90, formula = y ~ x)
+
+total %>%
+  filter(control...shroom == 1) %>%
+  ggplot(aes(x=as.factor(days.after), y=score)) +
+  geom_boxplot() +
+  labs(x = "Days after exposure", y="Score Delta From First Try", title="Score Difference in Effected Population")
+
+total %>%
+  filter(control...shroom == 0) %>%
+  ggplot(aes(x=as.factor(days.after), y=score)) +
+  geom_boxplot() + 
+  labs(x = "Days after exposure", y="Score Delta From First Try", title="Score Difference in Control Population")
 ```
 
