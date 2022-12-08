@@ -83,7 +83,7 @@ lm_spec <-
     set_mode('regression')
 
 mod <- fit(lm_spec,
-            score ~ . -name -occupation -island -before.drug.score -education -income -age -sex,
+            score ~ . -name -occupation -island,
             data = total)
 
 mod %>%
